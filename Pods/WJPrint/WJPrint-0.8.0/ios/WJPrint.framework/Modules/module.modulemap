@@ -1,0 +1,6 @@
+framework module WJPrint {
+  umbrella header "WJPrint.h"
+
+  export *
+  module * { export * }
+}
