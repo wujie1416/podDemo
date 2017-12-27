@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "CTMediator+AViewController.h"
 #import <objc/runtime.h>
+#import "HYDRefreshViewController.h"
 @interface ViewController ()
 
 @end
@@ -18,7 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    self.view.backgroundColor = [UIColor redColor];
+    self.title = @"podDemo";
 }
 
 
@@ -30,8 +31,9 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
-    UIViewController *vc =  [[CTMediator sharedInstance]aViewController];
-    [self presentViewController:vc animated:YES completion:nil];
+//    UIViewController *vc =  [[CTMediator sharedInstance]aViewController];
+    HYDRefreshViewController *vc = [[HYDRefreshViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 @end

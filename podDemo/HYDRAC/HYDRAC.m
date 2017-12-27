@@ -10,21 +10,9 @@
 #import <ReactiveObjC.h>
 
 @interface HYDRAC ()
-@property (nonatomic, strong) UITextField *textField;
-@property (nonatomic, strong) UIView *myView;
+
 @end
 
 @implementation HYDRAC
 
-- (void)observe
-{
-    [[self.myView rac_signalForSelector:@selector(click)] subscribeNext:^(RACTuple * _Nullable x) {
-        
-    }];
-}
-
-- (void)click
-{
-    
-}
 @end

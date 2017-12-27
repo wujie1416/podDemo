@@ -10,6 +10,7 @@
 		F0D0BE1137AAB1EB0F8A73DB /* libPods-podDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 548BA243531106C4F5D32728 /* libPods-podDemo.a */; };
 		F41BFF7B1FE24931000E07D2 /* HYDNetWorkMacro.m in Sources */ = {isa = PBXBuildFile; fileRef = F41BFF7A1FE24931000E07D2 /* HYDNetWorkMacro.m */; };
 		F41BFF7E1FE271DA000E07D2 /* ApiURLResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F41BFF7D1FE271DA000E07D2 /* ApiURLResponse.m */; };
+		F43B27931FF22BAB0023CB81 /* HYDRefreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F43B27921FF22BAB0023CB81 /* HYDRefreshViewController.m */; };
 		F44A04631FD7E50900A6EA5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F44A04621FD7E50900A6EA5B /* AppDelegate.m */; };
 		F44A04661FD7E50900A6EA5B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F44A04651FD7E50900A6EA5B /* ViewController.m */; };
 		F44A04691FD7E50900A6EA5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F44A04671FD7E50900A6EA5B /* Main.storyboard */; };
@@ -36,6 +37,8 @@
 		F41BFF7A1FE24931000E07D2 /* HYDNetWorkMacro.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYDNetWorkMacro.m; sourceTree = "<group>"; };
 		F41BFF7C1FE271DA000E07D2 /* ApiURLResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApiURLResponse.h; sourceTree = "<group>"; };
 		F41BFF7D1FE271DA000E07D2 /* ApiURLResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApiURLResponse.m; sourceTree = "<group>"; };
+		F43B27911FF22BAB0023CB81 /* HYDRefreshViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYDRefreshViewController.h; sourceTree = "<group>"; };
+		F43B27921FF22BAB0023CB81 /* HYDRefreshViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYDRefreshViewController.m; sourceTree = "<group>"; };
 		F44A045E1FD7E50900A6EA5B /* podDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = podDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F44A04611FD7E50900A6EA5B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F44A04621FD7E50900A6EA5B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -200,6 +203,8 @@
 		F44A04801FD7E83B00A6EA5B /* mjrefresh */ = {
 			isa = PBXGroup;
 			children = (
+				F43B27911FF22BAB0023CB81 /* HYDRefreshViewController.h */,
+				F43B27921FF22BAB0023CB81 /* HYDRefreshViewController.m */,
 			);
 			path = mjrefresh;
 			sourceTree = "<group>";
@@ -420,6 +425,7 @@
 				F4E1D4531FE11F83009E444D /* ApiRequestGenerator.m in Sources */,
 				F4D9F00D1FDFD84C00F37807 /* ApiHttpRequestUtil.m in Sources */,
 				F45DB45E1FED13F60091FF1E /* HYDRAC.m in Sources */,
+				F43B27931FF22BAB0023CB81 /* HYDRefreshViewController.m in Sources */,
 				F45DB4571FECB2490091FF1E /* HYDYYModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
